@@ -1,10 +1,10 @@
-favouriteMovieGenre("superhero")
+favouriteMovieGenre("cowboy")
 
-favouriteFruit("watermelon")
+favouriteFruit("banana")
 
 favouriteMode("dark")
 
-favouriteEdgeStyle("sharp")
+favouriteEdgeStyle("round")
 
 
 ////////////////////////////////////
