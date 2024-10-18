@@ -1,9 +1,15 @@
 * {
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
 }
 
 .header {
 }
 
-.blue-text {
-  color: blue;
+/* .blue-text {
+  color: #4e80ee;
+} */
+
+a {
+  text-decoration: none;
 }
