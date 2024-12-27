@@ -345,4 +345,32 @@ nav {
       bottom: -2em;
     }
   }
+
+  .testimonials-section ul {
+    display: flex;
+
+    li {
+      margin: 0 1em;
+    }
+  }
+
+  .contact-section {
+    position: relative;
+
+    .container {
+      display: flex;
+    }
+  }
+
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+
+    iframe {
+      height: 100%;
+    }
+  }
 }
