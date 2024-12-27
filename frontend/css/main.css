@@ -71,4 +71,11 @@ section {
   font-weight: bold;
   border-radius: 5em;
   display: inline-block;
+}
+.left-col .watch-video-cta {
+  display: block;
+  margin-top: 1em;
+}
+.left-col .watch-video-cta img {
+  margin-right: 0.5em;
 }/*# sourceMappingURL=main.css.map */
