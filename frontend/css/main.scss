@@ -125,3 +125,25 @@ ul.features-list {
 .features-section img {
   display: none;
 }
+
+.testimonials-section {
+  background: var(--primary-color);
+  color: white;
+
+  li {
+    background: #006bd6;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border: 5px solid #006bd6;
+    border-radius: 1em;
+
+    img {
+      width: 5em;
+      height: 5em;
+      border-radius: 50%;
+      margin-top: -4.5em;
+    }
+  }
+}
