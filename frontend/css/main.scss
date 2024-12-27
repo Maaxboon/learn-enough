@@ -69,4 +69,14 @@ section {
     line-height: 1.3em;
     margin-top: 0.2em;
   }
+  .primary-cta {
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.6em 1.3em;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 5em;
+    display: inline-block;
+  }
 }
