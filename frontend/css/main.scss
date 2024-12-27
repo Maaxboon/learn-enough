@@ -101,7 +101,8 @@ section {
 ul.features-list {
   margin: 0;
   padding-left: 0.1em;
-  //  come back to this
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 
   li {
     font-size: 1.1em;

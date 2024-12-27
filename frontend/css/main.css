@@ -93,6 +93,8 @@ section {
 ul.features-list {
   margin: 0;
   padding-left: 0.1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 ul.features-list li {
   font-size: 1.1em;
