@@ -25,7 +25,7 @@ body {
     }
   }
   nav {
-    // display: none;
+    display: none;
   }
 
   .container {
@@ -224,4 +224,60 @@ nav {
   float: right;
   margin: 0.5em;
   cursor: pointer;
+}
+
+/*Responsive design*/
+/*Applies to only 768 min-width and larger*/
+@media only screen and (min-width: 768px) {
+  .mobile-menu,
+  .mobile-menu-exit {
+    display: none;
+  }
+
+  .navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+  }
+
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+    ul {
+      display: flex;
+      font-size: 1em;
+      padding: 0.1em 1em;
+    }
+
+    ul.primary-nav {
+      margin: 0;
+    }
+
+    li.current a {
+      font-weight: bold;
+    }
+
+    li.go-premium-cta a {
+      color: var(--primary-color);
+      border: 3px solid var(--primary-color);
+      font-weight: bold;
+      border-radius: 5em;
+      margin-top: -2em;
+
+      &:hover {
+        background: var(--primary-color);
+        color: white;
+      }
+    }
+
+    a {
+      color: black;
+    }
+  }
 }
