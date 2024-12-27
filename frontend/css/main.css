@@ -21,4 +21,8 @@ body {
 }
 .navbar .logo span {
   color: var(--primary-color);
+}
+
+nav {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
