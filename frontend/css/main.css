@@ -28,4 +28,11 @@ body {
 .navbar .container {
   display: flex;
   place-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444444;
 }/*# sourceMappingURL=main.css.map */

@@ -32,4 +32,12 @@ body {
     display: flex;
     place-content: space-between;
   }
+
+  .mobile-menu {
+    cursor: pointer;
+  }
+}
+
+a {
+  color: #444444;
 }
