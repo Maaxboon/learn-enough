@@ -49,4 +49,11 @@ section {
 
 .hero {
   text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 0.3em;
 }/*# sourceMappingURL=main.css.map */
