@@ -24,8 +24,12 @@ body {
       color: var(--primary-color);
     }
   }
-}
+  nav {
+    display: none;
+  }
 
-nav {
-  display: none;
+  .container {
+    display: flex;
+    place-content: space-between;
+  }
 }

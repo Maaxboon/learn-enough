@@ -22,7 +22,10 @@ body {
 .navbar .logo span {
   color: var(--primary-color);
 }
-
-nav {
+.navbar nav {
   display: none;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
 }/*# sourceMappingURL=main.css.map */
