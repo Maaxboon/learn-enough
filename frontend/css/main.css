@@ -247,7 +247,7 @@ nav li a:hover {
     border: 3px solid var(--primary-color);
     font-weight: bold;
     border-radius: 5em;
-    margin-top: -2em;
+    margin-top: 0.5em;
   }
   .navbar nav li.go-premium-cta a:hover {
     background: var(--primary-color);
